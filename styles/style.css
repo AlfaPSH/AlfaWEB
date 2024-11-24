@@ -175,3 +175,12 @@ footer {
 header nav {
     border-bottom: none; /* Aseguramos que no haya línea bajo el header */
 }
+
+
+.image-container img {
+    max-width: 200px; /* Ajustar el tamaño de la imagen */
+    height: auto; /* Mantener proporciones */
+    border-radius: 50%; /* Opcional: forma circular */
+    margin: 20px auto; /* Centrar dentro del section */
+    display: block; /* Centrar si no está dentro de flexbox */
+}
