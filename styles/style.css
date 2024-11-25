@@ -1,9 +1,9 @@
-/* Remover cualquier borde no deseado */
+
 header nav {
-    border-bottom: none; /* Aseguramos que no haya línea bajo el header */
+    border-bottom: none; 
 }
 
-/* Fondo degradado para todas las páginas */
+
 body {
     margin: 0;
     padding: 0;
@@ -16,7 +16,7 @@ body {
     justify-content: space-between;
 }
 
-/* Header */
+
 header nav ul {
     display: flex;
     justify-content: center;
@@ -38,7 +38,7 @@ header nav ul li a:hover {
     color: #ffdd33;
 }
 
-/* Secciones */
+
 section {
     text-align: center;
     padding: 40px 20px;
@@ -46,12 +46,12 @@ section {
     margin: 0 auto;
 }
 
-/* Animaciones */
+
 .intro-section, .about-section {
     animation: fadeInUp 1s ease;
 }
 
-/* Footer */
+
 footer {
     text-align: center;
     background-color: rgba(0, 0, 0, 0.2);
@@ -59,7 +59,7 @@ footer {
     margin-top: auto;
 }
 
-/* Galería */
+
 .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -82,7 +82,7 @@ footer {
     color: white;
 }
 
-/* Espacio para imágenes */
+
 .image-container {
     display: flex;
     justify-content: center;
@@ -101,7 +101,7 @@ footer {
     transform: scale(1.05);
 }
 
-/* Animaciones */
+
 @keyframes fadeInUp {
     from {
         opacity: 0;
@@ -113,14 +113,14 @@ footer {
     }
 }
 
-/* Ajuste de fondo en imágenes */
+
 .image-container img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Esto hace que la imagen cubra completamente el área */
+    object-fit: cover;
 }
 
-/* Diseño de la página de contacto */
+
 .contact-section {
     background: linear-gradient(135deg, #ff5733, #ffc400);
     padding: 50px 20px;
@@ -171,16 +171,16 @@ footer {
     border-color: #ff9f00;
 }
 
-/* Ajustes para evitar la línea extra debajo del header */
+
 header nav {
-    border-bottom: none; /* Aseguramos que no haya línea bajo el header */
+    border-bottom: none; 
 }
 
 
 .image-container img {
-    max-width: 200px; /* Ajustar el tamaño de la imagen */
-    height: auto; /* Mantener proporciones */
-    border-radius: 50%; /* Opcional: forma circular */
-    margin: 20px auto; /* Centrar dentro del section */
-    display: block; /* Centrar si no está dentro de flexbox */
+    max-width: 200px; 
+    height: auto; 
+    border-radius: 50%; 
+    margin: 20px auto; 
+    display: block; 
 }
