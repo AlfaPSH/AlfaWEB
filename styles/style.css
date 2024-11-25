@@ -184,3 +184,37 @@ header nav {
     display: block; 
 }
 
+.success-section {
+    background: linear-gradient(135deg, #ff5733, #ffc400);
+    padding: 50px 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.success-section h2 {
+    color: white;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.success-section p {
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.success-section .back-button {
+    padding: 10px 20px;
+    background-color: #ffdd33;
+    border: none;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.success-section .back-button:hover {
+    background-color: #ff9f00;
+}
