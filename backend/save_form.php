@@ -5,12 +5,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message = htmlspecialchars($_POST["message"]);
 
     // Guardar los datos en el archivo
-    $file = fopen("submissions.txt", "a");
+    $file = fopen("db/forms/forms-submission.txt", "a");
     fwrite($file, "Nombre: $name\nCorreo: $email\nMensaje: $message\n\n");
     fclose($file);
 
     // Redirigir al usuario a la subpágina
-    header("Location: thank_you.html");
+    header("Location: ../thank_you.html");
     exit();
 }
 ?>
